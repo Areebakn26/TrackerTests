@@ -12,7 +12,7 @@ def test_navigation():
         wait = WebDriverWait(driver, 10)
 
         # Now homepage/dashboard will load correctly
-        driver.get("http://65.0.173.26:3000/")
+        driver.get("http://52.66.246.182:3000/")
 
         topbar = wait.until(
             EC.presence_of_element_located((By.CLASS_NAME, "top-bar"))
