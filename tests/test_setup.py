@@ -33,7 +33,7 @@ def login(driver, email=None, password=None):
     email = email or os.environ.get("TEST_EMAIL", "aimen@gmail.com")
     password = password or os.environ.get("TEST_PASSWORD", "123456")
 
-    driver.get("http://65.0.173.26:3000")
+    driver.get("http://52.66.246.182:3000")
 
     wait = WebDriverWait(driver, 10)
     # wait for email field
